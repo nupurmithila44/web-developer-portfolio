@@ -128,11 +128,36 @@ nav a{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin: 10px;
   }
   .resume-container{
     display: flex;
     gap: 50px;
   }
+  .resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+  }
+  .resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
   .resume-item-institute, .resume-item-description{
     color: #757575;
   }
+  .resume-item hr{
+    margin: 30px;
+  }
+  .download-cv{
+    text-align: center;
+    margin-top: 50px;
+  }
+  /* footer style */
+ .footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+ }
